@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E2"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        >
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/age12_18"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/background"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Age 12 - 18"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:padding="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Days 60"
+                            android:layout_marginLeft="5dp"
+                            android:textSize="20sp"
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Every 15 MIN"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="#FF5722"
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        >
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/exersice_1"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            android:padding="10dp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Get Started"
+                        android:layout_margin="10dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/button_background"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ag18_75"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/background"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Age 18 - 75"
+                                android:textSize="20sp"
+                                android:textColor="#000"
+                                android:padding="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Days 60"
+                                android:layout_marginLeft="5dp"
+                                android:textSize="20sp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Every 15 MIN"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="#FF5722"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            >
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:src="@drawable/exersice_2"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                                android:padding="10dp"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Get Started"
+                        android:layout_margin="10dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/button_background"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/calculate"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/background"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Calculate Your Body Fat"
+                                android:textSize="20sp"
+                                android:textColor="#000"
+                                android:padding="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:textStyle="bold"
+                                />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:src="@drawable/body_fat"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                                android:padding="10dp"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnCal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Calculate"
+                        android:layout_margin="10dp"
+                        android:textColor="#fff"
+                        android:background="@drawable/button_background"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/food"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/background"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Nutrition or Tips"
+                                android:textSize="20sp"
+                                android:textColor="#000"
+                                android:padding="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Suggestion for free"
+                                android:layout_marginLeft="5dp"
+                                android:padding="5dp"
+                                android:textStyle="bold"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_margin="10dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:src="@drawable/nutrition"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                                android:padding="10dp"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

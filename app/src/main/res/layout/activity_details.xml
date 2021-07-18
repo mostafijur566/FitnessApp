@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+    <TextView
+        android:id="@+id/detailsTxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Stop Counting Calories:-\n\n4.I’ve never been a big fan of counting calories. It’s misleading, and it allows you to ignore the nutritional content of your food. Rather than counting calories, make it your goal to eat only whole foods, and remove the processed and packages stuff."
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:background="@drawable/txt"
+        />
+
+</LinearLayout>
